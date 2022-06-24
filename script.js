@@ -1,3 +1,17 @@
+alert(`
+How to use this web............
+    First you can add your list by clicking "+"
+
+    There enter your text and for save that you have to press the SHIFT-Key.
+
+    There are 4 different colors for differentiate your different tasks and you can also filter it by clicking the colors present at HEADER section.
+    
+    If you press shift for saving make sure you're cursor must be at text area (i.e., first choose color then write your task).
+
+    For deletion, press "cross" it activate delete process then click on that ticket which you want to delete and then click again to "cross" for unactive deletion.
+
+`)
+
 let addBtn = document.querySelector(".add-btn");
 let modalCont = document.querySelector(".modal-cont");
 let mainCont = document.querySelector(".main-cont");
@@ -27,7 +41,7 @@ if(localStorage.getItem('tickets')){
   ticketsArr.forEach(function(ticket){
     createTicket(ticket.ticketTask , ticket.ticketColor , ticket.ticketID)
   })
-}
+};
 
 addBtn.addEventListener("click", function () {
   // display The Modal
