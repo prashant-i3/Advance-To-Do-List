@@ -1,12 +1,10 @@
 alert(`
 How to use this web............
-    First you can add your list by clicking "+"
-
-    There enter your text and for save that you have to press the SHIFT-Key.
+    First you can add your list by clicking "+", There enter your text and for save that you have to press the SHIFT-Key.
     There are 4 different colors for differentiate your different tasks and you can also filter it by clicking the colors present at HEADER section.
     If you press shift for saving make sure you're cursor must be at text area (i.e., first choose color then write your task).
     For deletion, press "cross" it activate delete process then click on that ticket which you want to delete and then click again to "cross" for unactive deletion.
-
+    After saving you can also edit your task by click on lock.
 `)
 
 let addBtn = document.querySelector(".add-btn");
